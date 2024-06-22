@@ -1,0 +1,21 @@
+{
+	"dependencies": {
+		"@upstash/ratelimit": "^1.2.1",
+		"@upstash/redis": "^1.31.5",
+		"hono": "^4.4.7"
+	},
+	"devDependencies": {
+		"wrangler": "^3.61.0"
+	},
+	"name": "maina-s-ratelimiter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "wrangler dev index.ts",
+		"deploy":"wrangler deploy --minify  index.ts ",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}
